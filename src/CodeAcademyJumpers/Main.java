@@ -1,4 +1,4 @@
-package DoodleJump;
+package CodeAcademyJumpers;
 
 import java.io.IOException;
 

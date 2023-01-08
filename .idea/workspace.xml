@@ -2,28 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23f41700-1ceb-40bd-af19-f723be33ce38" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Arabian Nights/out/production/Arabian Nights/org/academiadecodigo/bootcamp79/GenieClasses/Friendly.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Arabian Nights/out/production/Arabian Nights/org/academiadecodigo/bootcamp79/GenieClasses/Friendly.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Arabian Nights/out/production/Arabian Nights/org/academiadecodigo/bootcamp79/GenieClasses/Genie.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Arabian Nights/out/production/Arabian Nights/org/academiadecodigo/bootcamp79/GenieClasses/Genie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Arabian Nights/out/production/Arabian Nights/org/academiadecodigo/bootcamp79/GenieClasses/Grumpy.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Arabian Nights/out/production/Arabian Nights/org/academiadecodigo/bootcamp79/GenieClasses/Grumpy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Arabian Nights/out/production/Arabian Nights/org/academiadecodigo/bootcamp79/GenieClasses/Recyclable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Arabian Nights/out/production/Arabian Nights/org/academiadecodigo/bootcamp79/GenieClasses/Recyclable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Arabian Nights/out/production/Arabian Nights/org/academiadecodigo/bootcamp79/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Arabian Nights/out/production/Arabian Nights/org/academiadecodigo/bootcamp79/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Arabian Nights/src/org/academiadecodigo/bootcamp79/GenieClasses/Friendly.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Arabian Nights/src/org/academiadecodigo/bootcamp79/GenieClasses/Friendly.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Arabian Nights/src/org/academiadecodigo/bootcamp79/GenieClasses/Genie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Arabian Nights/src/org/academiadecodigo/bootcamp79/GenieClasses/Genie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Arabian Nights/src/org/academiadecodigo/bootcamp79/GenieClasses/Grumpy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Arabian Nights/src/org/academiadecodigo/bootcamp79/GenieClasses/Grumpy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Arabian Nights/src/org/academiadecodigo/bootcamp79/GenieClasses/Recyclable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Arabian Nights/src/org/academiadecodigo/bootcamp79/GenieClasses/Recyclable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Arabian Nights/src/org/academiadecodigo/bootcamp79/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Arabian Nights/src/org/academiadecodigo/bootcamp79/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DoodleJump/out/production/DoodleJumpLACERDA/DoodleJump/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DoodleJump/out/production/DoodleJumpLACERDA/DoodleJump/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DoodleJump/src/DoodleJump/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DoodleJump/src/DoodleJump/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Final Jump/DoodleJump/Platform.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Final Jump/DoodleJump/Platform.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DoodleJump/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoodleJump/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DoodleJump/Platform.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoodleJump/Platform.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DoodleJump/gameScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoodleJump/gameScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../my last Doodle Jump/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../my last Doodle Jump/.idea/libraries/simplegraphics.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../my last Doodle Jump/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../my last Doodle Jump/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../my last Doodle Jump/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../my last Doodle Jump/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DoodleJump/GameEngine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DoodleJump/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DoodleJump/Platform.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DoodleJump/Score.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DoodleJump/gameScreen.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +23,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -49,19 +34,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "/Users/joaolacerdaoliveira/Desktop/Code/AC/CodeAC/Java/Final Jump",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "configurable.group.appearance"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/joaolacerdaoliveira/Desktop/Code/PublicGitHub/CodeAcademyJumpers&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/resources" />
@@ -70,7 +55,20 @@
       <recent name="$PROJECT_DIR$/resources" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.CodeAcademyJumpers.Main">
+    <configuration name="CodeAcademyJumpers.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeAcademyJumpers.Main" />
+      <module name="CodeAcademyJumpers" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CodeAcademyJumpers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DoodleJump.Main" />
       <module name="Final Jump" />
@@ -86,6 +84,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CodeAcademyJumpers.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>

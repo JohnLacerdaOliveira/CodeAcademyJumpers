@@ -1,4 +1,4 @@
-package DoodleJump;
+package CodeAcademyJumpers;
 import org.academiadecodigo.simplegraphics.graphics.Color;
 import org.academiadecodigo.simplegraphics.graphics.Text;
 import org.academiadecodigo.simplegraphics.pictures.Picture;

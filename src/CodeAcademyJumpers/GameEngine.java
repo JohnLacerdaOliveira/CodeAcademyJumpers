@@ -1,4 +1,4 @@
-package DoodleJump;
+package CodeAcademyJumpers;
 
 
 import org.academiadecodigo.simplegraphics.graphics.Color;
@@ -12,24 +12,24 @@ import org.academiadecodigo.simplegraphics.pictures.Picture;
 
 import java.io.IOException;
 
-import static DoodleJump.Platform.PLATFORM_HEIGHT;
+import static CodeAcademyJumpers.Platform.PLATFORM_HEIGHT;
 
 
 public class GameEngine implements KeyboardHandler {
 
-    private final Picture myScreenDoodle;
+    private final Picture myScreenCharacter;
     private Platform[] platforms;
 
-    private static final int DOODLE_SIDE_SPEED = 8;
-    private static final int DOODLE_SIZE = 40;
+    private static final int CHARACTER_SIDE_SPEED = 8;
+    private static final int CHARACTER_SIZE = 40;
 
     private Line gameOverLine;
 
     private int GAMEOVER_LINE = 750;
 
 
-    private int DOODLE_X_START = 175;
-    private int DOODLE_Y_START = 340;
+    private int CHARACTER_X_START = 175;
+    private int CHARACTER_Y_START = 340;
 
     private int hitBoxXOne;
     private int hitBoxYOne;
@@ -47,18 +47,18 @@ public class GameEngine implements KeyboardHandler {
     public GameEngine() throws IOException, InterruptedException {
 
         score = new Score();
-        this.hitBoxYOne = DOODLE_Y_START + DOODLE_SIZE + 10;
-        this.hitBoxXOne = DOODLE_X_START + DOODLE_SIZE - 32;
-        this.hitBoxYTwo = DOODLE_Y_START + DOODLE_SIZE + 10;
-        this.hitBoxXTwo = DOODLE_X_START + DOODLE_SIZE - 1;
+        this.hitBoxYOne = CHARACTER_Y_START + CHARACTER_SIZE + 10;
+        this.hitBoxXOne = CHARACTER_X_START + CHARACTER_SIZE - 32;
+        this.hitBoxYTwo = CHARACTER_Y_START + CHARACTER_SIZE + 10;
+        this.hitBoxXTwo = CHARACTER_X_START + CHARACTER_SIZE - 1;
 
         int max = 7;
         int min = 1;
 
         //Choose random player image...
         int randomNum = (int) Math.ceil(Math.random() * (max - min));
-        myScreenDoodle = new Picture(DOODLE_X_START, DOODLE_Y_START, randomNum + ".png");
-        myScreenDoodle.draw();
+        myScreenCharacter = new Picture(CHARACTER_X_START, CHARACTER_Y_START, randomNum + ".png");
+        myScreenCharacter.draw();
 
         initKeyboard();
 
@@ -84,7 +84,7 @@ public class GameEngine implements KeyboardHandler {
 
     public void gameOver() throws IOException, InterruptedException {
 
-        myScreenDoodle.delete();
+        myScreenCharacter.delete();
 
         for (Platform platform : platforms) {
             platform.delete();
@@ -131,25 +131,25 @@ public class GameEngine implements KeyboardHandler {
     public void keyPressed(KeyboardEvent keyboardEvent) {
         switch (keyboardEvent.getKey()) {
             case KeyboardEvent.KEY_D:
-                if (DOODLE_X_START + DOODLE_SIZE >= gameScreen.WIDTH || this.gameOver) {
+                if (CHARACTER_X_START + CHARACTER_SIZE >= gameScreen.WIDTH || this.gameOver) {
                     return;
                 }
 
-                DOODLE_X_START += DOODLE_SIDE_SPEED;
-                myScreenDoodle.translate(DOODLE_SIDE_SPEED, 0);
-                hitBoxXOne = hitBoxXOne + DOODLE_SIDE_SPEED;
-                hitBoxXTwo = hitBoxXTwo + DOODLE_SIDE_SPEED;
+                CHARACTER_X_START += CHARACTER_SIDE_SPEED;
+                myScreenCharacter.translate(CHARACTER_SIDE_SPEED, 0);
+                hitBoxXOne = hitBoxXOne + CHARACTER_SIDE_SPEED;
+                hitBoxXTwo = hitBoxXTwo + CHARACTER_SIDE_SPEED;
                 break;
 
             case KeyboardEvent.KEY_A:
-                if (DOODLE_X_START - gameScreen.PADDING - 5 <= 0 || this.gameOver) {
+                if (CHARACTER_X_START - gameScreen.PADDING - 5 <= 0 || this.gameOver) {
                     return;
                 }
 
-                DOODLE_X_START -= DOODLE_SIDE_SPEED;
-                myScreenDoodle.translate(-DOODLE_SIDE_SPEED, 0);
-                hitBoxXOne = hitBoxXOne - DOODLE_SIDE_SPEED;
-                hitBoxXTwo = hitBoxXTwo - DOODLE_SIDE_SPEED;
+                CHARACTER_X_START -= CHARACTER_SIDE_SPEED;
+                myScreenCharacter.translate(-CHARACTER_SIDE_SPEED, 0);
+                hitBoxXOne = hitBoxXOne - CHARACTER_SIDE_SPEED;
+                hitBoxXTwo = hitBoxXTwo - CHARACTER_SIDE_SPEED;
                 break;
 
 
@@ -169,8 +169,8 @@ public class GameEngine implements KeyboardHandler {
         Thread.sleep(threadTimer);
         hitBoxYOne++;
         hitBoxYTwo++;
-        DOODLE_Y_START++;
-        myScreenDoodle.translate(0, 1);
+        CHARACTER_Y_START++;
+        myScreenCharacter.translate(0, 1);
 
         platformCollision();
 
@@ -187,8 +187,8 @@ public class GameEngine implements KeyboardHandler {
             Thread.sleep(threadTimer);
             hitBoxYOne--;
             hitBoxYTwo--;
-            DOODLE_Y_START--;
-            myScreenDoodle.translate(0, -1);
+            CHARACTER_Y_START--;
+            myScreenCharacter.translate(0, -1);
             speedDirection--;
 
 
@@ -214,8 +214,8 @@ public class GameEngine implements KeyboardHandler {
 
 
     public void movePlatforms() {
-        if ((DOODLE_Y_START - speedDirection) < 0) {
-            while ((DOODLE_Y_START - speedDirection) < 0 || speedDirection > 0) {
+        if ((CHARACTER_Y_START - speedDirection) < 0) {
+            while ((CHARACTER_Y_START - speedDirection) < 0 || speedDirection > 0) {
 
                 if (speedDirection > 0) {
 

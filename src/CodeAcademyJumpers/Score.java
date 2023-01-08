@@ -1,7 +1,6 @@
-package DoodleJump;
+package CodeAcademyJumpers;
 
 import java.io.*;
-import java.sql.SQLOutput;
 
 public class Score {
 
