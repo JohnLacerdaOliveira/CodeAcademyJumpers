@@ -54,6 +54,7 @@ Minimum viable product, much left to do
 ## Room for Improvement
 - Multithread implementation
 - Physics improvements
+- Increasing difficulty as game progresses
 - Moving platforms
 - Starter menu
 - Player Selection
