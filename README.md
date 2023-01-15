@@ -38,7 +38,7 @@ Platform style game inspired by the classic iOS game [DoodleJump](https://doodle
 ## Setup
 Option 1 - [Download here](CodeAcademyJumpers.jar) the .jar file in this repo and run it from your computer, either macOS or Windows should work fine.
 
-Option 2 - [Download here](https://github.com/JohnLacerdaOliveira/CodeAcademyJumpers) the intire repo and run open it with IntellJ or any other JDK IDE and compile and run the project from there.
+Option 2 - [Download here](https://github.com/JohnLacerdaOliveira/CodeAcademyJumpers) the intire repo and open it with IntellJ or any other JDK IDE and compile and run the project from there.
 
 
 ## Project Status
