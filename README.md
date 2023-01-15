@@ -60,7 +60,11 @@ Minimum viable product, much left to do
 
 
 ## Acknowledgements
-- To my teachers and colleages without whom this wouldn't be possible
+To my teachers and colleages without whom this wouldn't be possible namely:
+- [Rodrigo Wellausen](https://www.linkedin.com/in/rodrigowellausendev/)
+- [David Frutuoso](https://www.linkedin.com/in/david-frutuoso/)
+- [Diogo Santos](https://www.linkedin.com/in/diogo-dias-santos/)
+- [Ana Rita Cruz](https://www.linkedin.com/in/ana-rita-cruz/)
 
 
 ## Contact me
