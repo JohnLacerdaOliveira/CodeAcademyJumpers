@@ -2,27 +2,20 @@
 
 > Initiated as a group challenge on the 8th week of <AcademiaDeCódigo> bootcamp the game was conceptualized and implemented in under 1 week as an after class project. Further develepment is beeing carried on as an exercise in Java develpment.
 
-> Live demo  ==>  .jar file available to download and run on desktop
+> Demo  ==>  [Download here](CodeAcademyJumpers.jar) .jar file and run on desktop
 
 ## Table of Contents
+* [Screenshots](#screenshots)
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
-* [Screenshots & Video](#screenshots-video)
 * [Setup](#setup)
 * [Project Status](#project-status)
 * [Room for Improvement](#room-for-improvement)
 * [Acknowledgements](#acknowledgements)
 * [Contact me](#contact-me)
 
-## General Information
-Platform style game inspired by the classic iOS game [doodleJump](https://doodlejump.io) from 2009 but implemented from scratch in Java. The work done so far represents the minimum viable product and it's still very much a work in progress.
 
-
-## Technologies Used
-- Java
-- SimpleGraphics Library
-
-## Screenshots & Video
+## Screenshots
 
 <div align="center">
     <video autoplay=true 
@@ -31,10 +24,19 @@ Platform style game inspired by the classic iOS game [doodleJump](https://doodle
 </div>
 
 
-## Setup
-Option 1 - Download the .jar file in this repo and run it from your computer, either macOS or Windows should work fine.
+## General Information
+Platform style game inspired by the classic iOS game [DoodleJump](https://doodlejump.io) from 2009 but implemented from scratch in Java. The work done so far represents the minimum viable product and it's still very much a work in progress.
 
-Option 2 - Download the intire repo and run open it with IntellJ or any other JDK IDE and compile and run the project from there.
+
+## Technologies Used
+- Java
+- SimpleGraphics Library
+
+
+## Setup
+Option 1 - [Download here](CodeAcademyJumpers.jar) the .jar file in this repo and run it from your computer, either macOS or Windows should work fine.
+
+Option 2 - [Download here](https://github.com/JohnLacerdaOliveira/CodeAcademyJumpers) the intire repo and run open it with IntellJ or any other JDK IDE and compile and run the project from there.
 
 
 ## Project Status
