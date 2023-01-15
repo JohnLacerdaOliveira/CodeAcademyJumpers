@@ -7,7 +7,7 @@
 ## Table of Contents
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
-* [Screenshots](#screenshots)
+* [Screenshots & Video](#screenshots-video)
 * [Setup](#setup)
 * [Project Status](#project-status)
 * [Room for Improvement](#room-for-improvement)
@@ -22,14 +22,14 @@ Platform style game inspired by the classic iOS game [doodleJump](https://doodle
 - Java
 - SimpleGraphics Library
 
-## Screenshots
-![Game ScreenShot 1](
+## Screenshots & Video
 
-https://user-images.githubusercontent.com/28967333/212521078-ccf151c6-e157-44b4-9195-733039c4c609.mov
+<div align="center">
+    <video autoplay=true 
+    src="https://user-images.githubusercontent.com/28967333/212521136-90a44fa9-1449-4d99-b363-c961275a8f3c.mov">
+    </video>
+</div>
 
-./ScreenShots/GamePlayVideo)
-![Game ScreenShot 2](./ScreenShots/ScreenShot2.png)
-![GameLogic Diagram](./ScreenShots/Flowchart.png)
 
 ## Setup
 Option 1 - Download the .jar file in this repo and run it from your computer, either macOS or Windows should work fine.
@@ -45,13 +45,14 @@ Minimum viable product, much left to do
 Much still left to do 
 
 To do:
+- Multithread implementation
+- phics improvements
 - Moving platforms
 - Starter menu
 - Player Selection
 
 ## Acknowledgements
-- This project was based on a challenge found on [this course](shorturl.at/dG289).
-- Many thanks to Jonas Schmedtmann and it's great teaching
+- To my teachers and colleages without whom this wouldn't be possible
 
 
 
