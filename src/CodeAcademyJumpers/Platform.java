@@ -7,7 +7,7 @@ public class Platform {
 
     private static final int PLATFORM_WIDTH = 70;
     public static final int PLATFORM_HEIGHT = 10;
-    public static final int PLATFORM_NUMBER = 13;
+    public static final int PLATFORM_NUMBER = 10;
 
     private final Picture platformPicture;
     public int[] platformHitBox = new int[PLATFORM_WIDTH];
