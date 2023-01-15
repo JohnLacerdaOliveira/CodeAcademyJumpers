@@ -4,12 +4,14 @@
 
 > Demo  ==>  [Download here](CodeAcademyJumpers.jar) .jar file and run on desktop
 
+
 ## Table of Contents
 * [Screenshots](#screenshots)
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
 * [Setup](#setup)
 * [Project Status](#project-status)
+* [Features](#features)
 * [Room for Improvement](#room-for-improvement)
 * [Acknowledgements](#acknowledgements)
 * [Contact me](#contact-me)
@@ -43,19 +45,22 @@ Option 2 - [Download here](https://github.com/JohnLacerdaOliveira/CodeAcademyJum
 Minimum viable product, much left to do
 
 
-## Room for Improvement
-Much still left to do 
+## Features
+- Infinity scroll (plataforms will be continuously generated and deleted as you continue moving up)
+- Persistent high score
+- Code implemented in such a way that player physics and number of platforms on screen can be dynamicly changed
 
-To do:
+
+## Room for Improvement
 - Multithread implementation
-- phics improvements
+- Physics improvements
 - Moving platforms
 - Starter menu
 - Player Selection
 
+
 ## Acknowledgements
 - To my teachers and colleages without whom this wouldn't be possible
-
 
 
 ## Contact me
